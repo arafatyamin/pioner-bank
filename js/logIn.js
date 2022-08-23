@@ -1,12 +1,13 @@
-document.getElementById('submit-btn').addEventListener('click', function () {
+document.getElementById('submit-btn').addEventListener('click',function(){
 
     const emailField = document.getElementById('email-field');
     const email = emailField.value;
     const passwordField = document.getElementById('password-field');
     const password = passwordField.value;
-    if (email.endsWith === '@gmail.com' && password === '12345') {
+    if(email.endsWith('@gmail.com' )){
         window.location.href = 'bank.html'
-    } else {
-        alert('your password is incorrect');
+    }
+    else{
+        alert('your gmail is incorrect');
     }
 });
